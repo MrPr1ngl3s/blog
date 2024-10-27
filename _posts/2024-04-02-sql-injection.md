@@ -1,5 +1,5 @@
 ---
-title: SQL injection
+title: SQL Injection
 tags:
   - "SQLi"
 categories:
