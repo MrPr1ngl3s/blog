@@ -205,7 +205,7 @@ Al subir la publicación podemos observar que nos aparece en el inicio de la pá
 
 ![img](/assets/img/xss/xsss_10.png)
 
-Crearemos otra publicación, pero ahora añadiendo etiquetas `<script></scripipt>` para comprobar si se acontece un `XSS`.
+Crearemos otra publicación, pero ahora añadiendo etiquetas `<script></script>` para comprobar si se acontece un `XSS`.
 
 ![img](/assets/img/xss/xsss_11.png)
 
