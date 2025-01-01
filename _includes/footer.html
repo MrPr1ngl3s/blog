@@ -9,7 +9,8 @@
 >
   <p>
     {{- '©' }}
-    <time>{{ 'now' | date: '%Y' }}</time>
+    <script>document.write(new Date().getFullYear());</script>
+    <!-- <time>{{ 'now' | date: '%Y' }}</time> -->
 
     {% if site.social.links %}
       <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
